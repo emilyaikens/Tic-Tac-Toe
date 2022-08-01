@@ -2,10 +2,10 @@
 First GA Project
 
 Initialize:
-        User sees:
-                empty board
-                prompt: whose turn is it, which variable they are using (x or o)
-                reset button
+        1. User sees:
+                1.1 empty board
+                1.2 prompt: whose turn is it, which variable they are using (x or o)
+                1.3 reset button
 
 Constants and variables: 
     The board:
