@@ -17,16 +17,18 @@ const winCond = [
 
 function playerSelect(clickedBox) {       //user input: when player clicks on box
    let clickResult = clickedBox.target.getAttribute("id");    // pulls id of clicked box (a,b,c etc) from doc
-   clickedBox.target.innerHTML = playerID;                                  
-   if (playerID === "X") { 
+   if (clickedBox.target.innerHTML !== "X" && clickedBox.target.innerHTML !== "O") {
+    clickedBox.target.innerHTML = playerID;                                                                    
+    if (playerID === "X") { 
       plX.push(clickResult);           // adds id of clicked box to player array (data)
       playerID = "O";          // updates player ID (data)
       plTurn.innerHTML = "It's player O's turn";     // updates player ID on display     
-   } else if (playerID === "O") {
+    } else if (playerID === "O") {
       plO.push(clickResult);
       playerID = "X";     
       plTurn.innerHTML = "It's player X's turn";
-    }; 
+    };
+};  
   checkTie();
   checkWinner();
 };  
