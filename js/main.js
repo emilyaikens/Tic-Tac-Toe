@@ -45,7 +45,7 @@ function checkWinner () {        // checks for winner
         countO += 1;} };  
     if (countO === 3) {                             //if 3 of pl values match a wincond array, they've won
       plTurn.innerHTML = "Player O wins!"; 
-      plO.forEach(value => 
+      winCond[i].forEach(value => 
         document.getElementById(value).style.backgroundColor = "#e57373");  //change the background color of box that has been picked
     };
     let countX = 0;
@@ -54,10 +54,10 @@ function checkWinner () {        // checks for winner
         countX += 1;} };
     if (countX === 3) {
       plTurn.innerHTML = "Player X wins!"; 
-      plX.forEach(value => 
+      winCond[i].forEach(value => 
         document.getElementById(value).style.backgroundColor = "#e57373");
     };
-  }; 
+  };
 };
 
 function reset () {         // user input: reset the game using the reset button
