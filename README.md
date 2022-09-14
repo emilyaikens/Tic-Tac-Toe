@@ -18,7 +18,9 @@ A tic tac toe game created in the first weekend of the General Assembly Software
 
 ## Technologies Used
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Getting Started
@@ -37,6 +39,6 @@ A tic tac toe game created in the first weekend of the General Assembly Software
 
 * The largest and only hurdle I had was basically the fact that I started learning JavaScript (my first ever computer language) five days ago. It's all new! But very fun, and very rewarding.
 
-# Planning Resources:
+## Planning Resources:
 
 [Link to Pseudocode](https://docs.google.com/document/d/1IeKPrgwJV5PkIwtOFQdFnIIayUFZrvIvtcsSS6KyJ4k/edit?usp=sharing)
