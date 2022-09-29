@@ -33,7 +33,11 @@ A tic tac toe game created in the first weekend of the General Assembly Software
 
 ![A screenshot showing the rendered tictactoe game](images/screenshot1.png)
 
-![A screenshot showing a partially played tictactoe game](images/screenshot2.png)
+<details>
+<summary> A screenshot showing a partially played tictactoe game </summary>
+<img src="images/screenshot2.png">
+</details>
+<br/>
 
 ## Project Hurdles: 
 
